@@ -3,11 +3,11 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.1.32210.238
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CoinCashBack.Server", "CoinCashBack\Server\CoinCashBack.Server.csproj", "{CC9E0B70-3DFE-4AB4-BA40-52661CEA881C}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CoinCashBack.Server", "CoinCashBack\Server\CoinCashBack.Server.csproj", "{CC9E0B70-3DFE-4AB4-BA40-52661CEA881C}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CoinCashBack.Client", "CoinCashBack\Client\CoinCashBack.Client.csproj", "{F2151749-6895-48AC-8DDA-F560B49CF679}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CoinCashBack.Client", "CoinCashBack\Client\CoinCashBack.Client.csproj", "{F2151749-6895-48AC-8DDA-F560B49CF679}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CoinCashBack.Shared", "CoinCashBack\Shared\CoinCashBack.Shared.csproj", "{9B2973E0-768F-4443-A2F8-B956820E24B4}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CoinCashBack.Shared", "CoinCashBack\Shared\CoinCashBack.Shared.csproj", "{9B2973E0-768F-4443-A2F8-B956820E24B4}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
