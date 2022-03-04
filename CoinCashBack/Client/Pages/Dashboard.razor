@@ -1,165 +1,143 @@
 ﻿@page "/"
 
 <PageTitle>Dashboard</PageTitle>
+<MudPaper Class="d-flex flex-wrap gap-4 pa-5" MinWidth="100%">
+    <MudPaper Width="400px" Height="100%" Class="pa-0">
+        <MudCard Elevation="3">
+            <MudCardHeader Class="pa-0">
+                <CardHeaderAvatar>
+                    <MudAvatar Image="https://assets.coingecko.com/coins/images/1/thumb/bitcoin.png?1547033579" Alt="Bitcoin"/>
+                </CardHeaderAvatar>
+                <CardHeaderContent>
+                    <MudText Typo="Typo.body1">BitCoin</MudText>
+                    <MudText Typo="Typo.body2">USD $4,3683.00</MudText>
+                </CardHeaderContent>
+                <CardHeaderActions>
+                    <MudIconButton Icon="@Icons.Material.Filled.Settings" Color="Color.Default" />
+                </CardHeaderActions>
+            </MudCardHeader>
 
-    <MudCard Class="d-flex flex-row flex-grow-1 gap-3">
-        <MudCardHeader>
-            <CardHeaderAvatar>
-                <MudAvatar Color="Color.Secondary">I</MudAvatar>
-            </CardHeaderAvatar>
-            <CardHeaderContent>
-                <MudText Typo="Typo.body1">Istra Croatia</MudText>
-                <MudText Typo="Typo.body2">Peninsula in Europe</MudText>
-            </CardHeaderContent>
-            <CardHeaderActions>
-                <MudIconButton Icon="@Icons.Material.Filled.Settings" Color="Color.Default" />
-            </CardHeaderActions>
-        </MudCardHeader>
-        <MudChart ChartType="ChartType.Line" ChartSeries="@Series" XAxisLabels="@XAxisLabels" Width="100%" Height="250px" Class="pa-5"></MudChart>
+            <MudCardContent Class="pa-5">
+                <MudChart ChartType="ChartType.Line" ChartSeries="@Series" XAxisLabels="@XAxisLabels" Width="100%" Height="280px"></MudChart>
+            </MudCardContent>
+            <MudCardActions Class="d-flex flex-row-reverse flex-grow-1 gap-2 pa-0">
+                <MudIconButton Icon="@Icons.Material.Filled.Favorite" Color="Color.Default" />
+                <MudIconButton Icon="@Icons.Material.Filled.Share" Color="Color.Default" />
+            </MudCardActions>
+        </MudCard>
+    </MudPaper>    
+    <MudPaper Width="400px" Height="100%" Class="pa-0">
+        <MudCard Elevation="3">
+            <MudCardHeader>
+                <CardHeaderAvatar>
+                    <MudAvatar Color="Color.Secondary">I</MudAvatar>
+                </CardHeaderAvatar>
+                <CardHeaderContent>
+                    <MudText Typo="Typo.body1">Istra Croatia</MudText>
+                    <MudText Typo="Typo.body2">Peninsula in Europe</MudText>
+                </CardHeaderContent>
+                <CardHeaderActions>
+                    <MudIconButton Icon="@Icons.Material.Filled.Settings" Color="Color.Default" />
+                </CardHeaderActions>
+            </MudCardHeader>
+            <MudChart ChartType="ChartType.Line" ChartSeries="@Series" XAxisLabels="@XAxisLabels" Width="100%" Height="200px" Class="pa-5"></MudChart>
 
-        <MudCardContent>
-            <MudText Typo="Typo.body2">This photo was taken in a small village in Istra Croatia.</MudText>
-        </MudCardContent>
-        <MudCardActions>
-            <MudIconButton Icon="@Icons.Material.Filled.Favorite" Color="Color.Default" />
-            <MudIconButton Icon="@Icons.Material.Filled.Share" Color="Color.Default" />
-        </MudCardActions>
-    </MudCard>
+            <MudCardContent>
+                <MudText Typo="Typo.body2">This photo was taken in a small village in Istra Croatia.</MudText>
+            </MudCardContent>
+            <MudCardActions>
+                <MudIconButton Icon="@Icons.Material.Filled.Favorite" Color="Color.Default" />
+                <MudIconButton Icon="@Icons.Material.Filled.Share" Color="Color.Default" />
+            </MudCardActions>
+        </MudCard>
+    </MudPaper>    
+    <MudPaper Width="400px" Height="100%" Class="pa-0">
+        <MudCard Elevation="3">
+            <MudCardHeader>
+                <CardHeaderAvatar>
+                    <MudAvatar Color="Color.Secondary">I</MudAvatar>
+                </CardHeaderAvatar>
+                <CardHeaderContent>
+                    <MudText Typo="Typo.body1">Istra Croatia</MudText>
+                    <MudText Typo="Typo.body2">Peninsula in Europe</MudText>
+                </CardHeaderContent>
+                <CardHeaderActions>
+                    <MudIconButton Icon="@Icons.Material.Filled.Settings" Color="Color.Default" />
+                </CardHeaderActions>
+            </MudCardHeader>
+            <MudChart ChartType="ChartType.Line" ChartSeries="@Series" XAxisLabels="@XAxisLabels" Width="100%" Height="200px" Class="pa-5"></MudChart>
 
-    <MudCard Class="d-flex flex-row flex-grow-1 gap-3" >
-        <MudCardHeader>
-            <CardHeaderAvatar>
-                <MudAvatar Color="Color.Secondary">I</MudAvatar>
-            </CardHeaderAvatar>
-            <CardHeaderContent>
-                <MudText Typo="Typo.body1">Istra Croatia</MudText>
-                <MudText Typo="Typo.body2">Peninsula in Europe</MudText>
-            </CardHeaderContent>
-            <CardHeaderActions>
-                <MudIconButton Icon="@Icons.Material.Filled.Settings" Color="Color.Default" />
-            </CardHeaderActions>
-        </MudCardHeader>
-        <MudChart ChartType="ChartType.Line" ChartSeries="@Series" XAxisLabels="@XAxisLabels" Width="100%" Height="250px"></MudChart>
+            <MudCardContent>
+                <MudText Typo="Typo.body2">This photo was taken in a small village in Istra Croatia.</MudText>
+            </MudCardContent>
+            <MudCardActions>
+                <MudIconButton Icon="@Icons.Material.Filled.Favorite" Color="Color.Default" />
+                <MudIconButton Icon="@Icons.Material.Filled.Share" Color="Color.Default" />
+            </MudCardActions>
+        </MudCard>
+    </MudPaper>    
+    <MudPaper Width="400px" Height="100%" Class="pa-0">
+        <MudCard Elevation="3">
+            <MudCardHeader>
+                <CardHeaderAvatar>
+                    <MudAvatar Color="Color.Secondary">I</MudAvatar>
+                </CardHeaderAvatar>
+                <CardHeaderContent>
+                    <MudText Typo="Typo.body1">Istra Croatia</MudText>
+                    <MudText Typo="Typo.body2">Peninsula in Europe</MudText>
+                </CardHeaderContent>
+                <CardHeaderActions>
+                    <MudIconButton Icon="@Icons.Material.Filled.Settings" Color="Color.Default" />
+                </CardHeaderActions>
+            </MudCardHeader>
+            <MudChart ChartType="ChartType.Line" ChartSeries="@Series" XAxisLabels="@XAxisLabels" Width="100%" Height="200px" Class="pa-5"></MudChart>
 
-        <MudCardContent>
-            <MudText Typo="Typo.body2">This photo was taken in a small village in Istra Croatia.</MudText>
-        </MudCardContent>
-        <MudCardActions>
-            <MudIconButton Icon="@Icons.Material.Filled.Favorite" Color="Color.Default" />
-            <MudIconButton Icon="@Icons.Material.Filled.Share" Color="Color.Default" />
-        </MudCardActions>
-    </MudCard>
+            <MudCardContent>
+                <MudText Typo="Typo.body2">This photo was taken in a small village in Istra Croatia.</MudText>
+            </MudCardContent>
+            <MudCardActions>
+                <MudIconButton Icon="@Icons.Material.Filled.Favorite" Color="Color.Default" />
+                <MudIconButton Icon="@Icons.Material.Filled.Share" Color="Color.Default" />
+            </MudCardActions>
+        </MudCard>
+    </MudPaper>    
+    <MudPaper Width="400px" Height="100%" Class="pa-0">
+        <MudCard Elevation="3">
+            <MudCardHeader>
+                <CardHeaderAvatar>
+                    <MudAvatar Color="Color.Secondary">I</MudAvatar>
+                </CardHeaderAvatar>
+                <CardHeaderContent>
+                    <MudText Typo="Typo.body1">Istra Croatia</MudText>
+                    <MudText Typo="Typo.body2">Peninsula in Europe</MudText>
+                </CardHeaderContent>
+                <CardHeaderActions>
+                    <MudIconButton Icon="@Icons.Material.Filled.Settings" Color="Color.Default" />
+                </CardHeaderActions>
+            </MudCardHeader>
+            <MudChart ChartType="ChartType.Line" ChartSeries="@Series" XAxisLabels="@XAxisLabels" Width="100%" Height="200px" Class="pa-5"></MudChart>
 
-    <MudCard Class="px-5">
-        <MudCardHeader>
-            <CardHeaderAvatar>
-                <MudAvatar Color="Color.Secondary">I</MudAvatar>
-            </CardHeaderAvatar>
-            <CardHeaderContent>
-                <MudText Typo="Typo.body1">Istra Croatia</MudText>
-                <MudText Typo="Typo.body2">Peninsula in Europe</MudText>
-            </CardHeaderContent>
-            <CardHeaderActions>
-                <MudIconButton Icon="@Icons.Material.Filled.Settings" Color="Color.Default" />
-            </CardHeaderActions>
-        </MudCardHeader>
-        <MudChart ChartType="ChartType.Line" ChartSeries="@Series" XAxisLabels="@XAxisLabels" Width="100%" Height="250px"></MudChart>
-
-        <MudCardContent>
-            <MudText Typo="Typo.body2">This photo was taken in a small village in Istra Croatia.</MudText>
-        </MudCardContent>
-        <MudCardActions>
-            <MudIconButton Icon="@Icons.Material.Filled.Favorite" Color="Color.Default" />
-            <MudIconButton Icon="@Icons.Material.Filled.Share" Color="Color.Default" />
-        </MudCardActions>
-    </MudCard>
-
-    <MudDivider Class="px-2" />
-    <MudCard Class="px-5">
-        <MudCardHeader>
-            <CardHeaderAvatar>
-                <MudAvatar Color="Color.Secondary">I</MudAvatar>
-            </CardHeaderAvatar>
-            <CardHeaderContent>
-                <MudText Typo="Typo.body1">Istra Croatia</MudText>
-                <MudText Typo="Typo.body2">Peninsula in Europe</MudText>
-            </CardHeaderContent>
-            <CardHeaderActions>
-                <MudIconButton Icon="@Icons.Material.Filled.Settings" Color="Color.Default" />
-            </CardHeaderActions>
-        </MudCardHeader>
-        <MudChart ChartType="ChartType.Line" ChartSeries="@Series" XAxisLabels="@XAxisLabels" Width="100%" Height="250px"></MudChart>
-
-        <MudCardContent>
-            <MudText Typo="Typo.body2">This photo was taken in a small village in Istra Croatia.</MudText>
-        </MudCardContent>
-        <MudCardActions>
-            <MudIconButton Icon="@Icons.Material.Filled.Favorite" Color="Color.Default" />
-            <MudIconButton Icon="@Icons.Material.Filled.Share" Color="Color.Default" />
-        </MudCardActions>
-    </MudCard>
-
-    <MudDivider Class="px-2" />
-    <MudCard Class="px-5">
-        <MudCardHeader>
-            <CardHeaderAvatar>
-                <MudAvatar Color="Color.Secondary">I</MudAvatar>
-            </CardHeaderAvatar>
-            <CardHeaderContent>
-                <MudText Typo="Typo.body1">Istra Croatia</MudText>
-                <MudText Typo="Typo.body2">Peninsula in Europe</MudText>
-            </CardHeaderContent>
-            <CardHeaderActions>
-                <MudIconButton Icon="@Icons.Material.Filled.Settings" Color="Color.Default" />
-            </CardHeaderActions>
-        </MudCardHeader>
-        <MudChart ChartType="ChartType.Line" ChartSeries="@Series" XAxisLabels="@XAxisLabels" Width="100%" Height="250px"></MudChart>
-
-        <MudCardContent>
-            <MudText Typo="Typo.body2">This photo was taken in a small village in Istra Croatia.</MudText>
-        </MudCardContent>
-        <MudCardActions>
-            <MudIconButton Icon="@Icons.Material.Filled.Favorite" Color="Color.Default" />
-            <MudIconButton Icon="@Icons.Material.Filled.Share" Color="Color.Default" />
-        </MudCardActions>
-    </MudCard>
-
-    <MudDivider Class="px-2" />
-    <MudCard Class="px-5">
-        <MudCardHeader>
-            <CardHeaderAvatar>
-                <MudAvatar Color="Color.Secondary">I</MudAvatar>
-            </CardHeaderAvatar>
-            <CardHeaderContent>
-                <MudText Typo="Typo.body1">Istra Croatia</MudText>
-                <MudText Typo="Typo.body2">Peninsula in Europe</MudText>
-            </CardHeaderContent>
-            <CardHeaderActions>
-                <MudIconButton Icon="@Icons.Material.Filled.Settings" Color="Color.Default" />
-            </CardHeaderActions>
-        </MudCardHeader>
-        <MudChart ChartType="ChartType.Line" ChartSeries="@Series" XAxisLabels="@XAxisLabels" Width="100%" Height="250px"></MudChart>
-
-        <MudCardContent>
-            <MudText Typo="Typo.body2">This photo was taken in a small village in Istra Croatia.</MudText>
-        </MudCardContent>
-        <MudCardActions>
-            <MudIconButton Icon="@Icons.Material.Filled.Favorite" Color="Color.Default" />
-            <MudIconButton Icon="@Icons.Material.Filled.Share" Color="Color.Default" />
-        </MudCardActions>
-    </MudCard>
-
+            <MudCardContent>
+                <MudText Typo="Typo.body2">This photo was taken in a small village in Istra Croatia.</MudText>
+            </MudCardContent>
+            <MudCardActions>
+                <MudIconButton Icon="@Icons.Material.Filled.Favorite" Color="Color.Default" />
+                <MudIconButton Icon="@Icons.Material.Filled.Share" Color="Color.Default" />
+            </MudCardActions>
+        </MudCard>
+    </MudPaper>    
+</MudPaper>
 @code {
     public List<ChartSeries> Series = new List<ChartSeries>();
     public ChartOptions Options = new ChartOptions();
-    public string[] XAxisLabels = { "01/01", "02/01", "03/01", "04/01", "05/01", "06/01", "07/01" };
+    public string[] XAxisLabels = { "01/01", "02/01", "03/01", "04/01" };
     protected override void OnInitialized()
     {
-        double[] Data1 = { 30000.0, 32000.0, 32800.0, 32850.0, 31000.0, 34000.0, 28000.0 };
+        double[] Data1 = { 30000, 32000, 32800, 32850 };
 
         Series.Add(new ChartSeries() { Name = "Bitcoin", Data = Data1 });
 
-        Options.YAxisTicks = 25000;
+        Options.YAxisTicks = 1000;
 
         StateHasChanged();
     }
